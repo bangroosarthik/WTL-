@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -160px;
+}
+
+.main .calculator{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    
+    background-color: lightgray;
+}
+
+.calculator div{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.erase img{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.calculator div{
+    background-color: white;
+    color: black;
+    
+}
+.calculator .equal{
+    background-color: orange;
+    color: white;
+}
+
+.calculator button{
+    border-style: none;
+    border: none;
+    background-color: none;
+    font-size: larger;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.calculator .equal button{
+    background-color: orange;
+    color: white;
+}
+
+.header{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.header h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+input{
+    width: 500px;
+    height: 60px;
+    margin-top: 70px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
